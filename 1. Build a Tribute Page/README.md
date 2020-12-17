@@ -1,5 +1,5 @@
-# Build a Tribute Page
+# Tribute Page v2- Bruce Lee
 
-Live preview: https://codepen.io/chxtio/full/gOMLjeE
+[Live Preview](http://net.saddleback.edu/ctio0/CIMW100B/final/index.html)
 
-![my_tribute_page](preview.png)
+![image](https://user-images.githubusercontent.com/33184844/102541080-cf137c00-4064-11eb-97d8-a798a1b548e5.png)
