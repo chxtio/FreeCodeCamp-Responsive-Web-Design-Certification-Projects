@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> Bruce Lee </title>
+  <link rel="stylesheet" href="Style.css">
+  <script>
+	function validateForm() {
+		if (document.forms[0].myEmail.value == "") {
+			alert("Please enter an e-mail address.");
+			return false;
+		}
+		return true;
+	}
+  </script>
+</head>
+<body>
+    <nav class="parent">
+      <ul id="left">
+        <li><a href="index.html"><img src="https://merchbar.imgix.net/product/43/1748/xlas004/XLAS004.JPG?w=640&h=640" alt="home" width=80px></a></li>
+      </ul>
+      <ul id="right">
+		<li><a href="about.html">About</a></li>
+        <li><a href="quotes.html">Inspiration</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html" class="nav-sign-in">Contact</a></li>
+      </ul>
+    </nav>
+  <main id="main">
+    <div id="title2">
+      <h1>Contact</h1>
+    </div>
+    <div id="img-div">
+      <figure>
+        <img id="image"   src="https://www.midnightonly.com/wp-content/uploads/2011/08/enter-the-dragon-1.jpg" alt="Bruce Lee">
+
+      </figure>
+    </div>
+
+  <form method="post" action="https://webdevbasics.net/scripts/demo.php"" onsubmit="return validateForm();">
+    <label for="myName"> Name:</label>
+    <input type="text" name="myName" id="myName" placeholder="Name" autofocus>
+    <label for="myEmail">* Email:</label>
+    <input type="email" name="myEmail" id="myEmail" placeholder="Email">
+    <label for="myComments"> Comments:</label>
+    <textarea name="myComments" id="myComments" rows="4" cols="25" placeholder="Message"></textarea>
+    <input type="submit" id="mySubmit" value="Submit">
+  </form>
+
+
+  </main>
+  <footer>
+	  Copyright &copy; 2020<br>
+	  <div>
+		This page was last modified on:
+		<script>
+			document.write(document.lastModified);
+		</script>
+		</div>
+   </footer>
+</body>
+</html>
